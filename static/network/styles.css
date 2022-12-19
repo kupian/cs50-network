@@ -1,0 +1,29 @@
+@media (min-width: 300px) {
+    body {
+        font-size: 4rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+        font-size: 1rem;
+    }
+}
+
+.like:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.like:active {
+    color: rgba(200, 0, 0, 0.741);
+}
+
+.liked {
+    color: red;
+}
+
+.liked:hover {
+    color: black;
+    cursor: pointer;
+}
